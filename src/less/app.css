@@ -1,0 +1,98 @@
+@font-face {
+  font-family: "MOVIEFONT";
+  src: url("/src/font/SF_Movie_Poster.ttf");
+}
+@font-face {
+  font-family: "MOVIEFONT-BOLD";
+  src: url("/src/font/SF_Movie_Poster_Bold.ttf");
+}
+* {
+  font-family: MOVIEFONT-BOLD;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: #212121;
+}
+.container {
+  width: 45rem;
+  height: 60rem;
+  border-radius: .5rem;
+  background: url("https://images.pexels.com/photos/42154/pexels-photo-42154.jpeg?w=1260&h=750&dpr=2&auto=compress&cs=tinysrgb") no-repeat center;
+  background-size: cover;
+  padding: 2.5rem 2rem 4rem 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.container p {
+  text-align: center;
+  line-height: 0.8;
+}
+.container .upper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.container .upper p {
+  color: black;
+}
+.container .upper .movie-actress-first-name {
+  font-size: 2rem;
+}
+.container .upper .movie-actress-last-name {
+  font-size: 3rem;
+}
+.container .bottom {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.container .bottom p {
+  color: white;
+}
+.container .bottom .movie-award {
+  font-size: 2.5rem;
+  padding: 2rem 0;
+  font-family: "MOVIEFONT";
+}
+.container .bottom .movie-producer {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.2rem;
+}
+.container .bottom .movie-title {
+  font-size: 10rem;
+  letter-spacing: .5rem;
+}
+.container .bottom .movie-first-level {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+}
+.container .bottom .movie-first-level-value {
+  font-size: 3rem;
+}
+.container .bottom .movie-link {
+  font-size: 2rem;
+}
+.container .bottom .movie-release {
+  font-size: 3rem;
+  text-align: right;
+  margin-right: 1rem;
+}
+.container .bottom .movie-release.date {
+  text-align: left;
+  margin-left: 1rem;
+}
+.container .row {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-around;
+  margin: .5rem 0;
+}
+.container .col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
